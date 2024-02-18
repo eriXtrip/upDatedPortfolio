@@ -1,0 +1,546 @@
+:root {
+  --textCOLOR: #000000;
+  --textCOLOR2:rgb(255, 255, 255)0;
+  --backCOLOR: #ffffff;
+  --backCOLOR2: #f0f0f0;
+  --backBUTTON:#c7c7c7;
+  --backBUTTONhov:#dddddd;
+  --cardBACK:#bfc6d4;
+  --highlight:#ff5100;
+  --iconCOLOR: brightness(1) invert(0);
+  --iconCOLOR2: brightness(0) invert(1);
+  --font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --font-size: 55px;
+}
+
+.dark-theme {
+  --textCOLOR: #ffffff;
+  --textCOLOR2:rgb(255, 255, 255)0;
+  --backCOLOR: #0a0e15;
+  --backCOLOR2: #212631;
+  --backBUTTON:#c7c7c7;
+  --backBUTTONhov:#5956ac;
+  --cardBACK:#28272c;
+  --highlight:#1b14d6;
+  --iconCOLOR: brightness(0) invert(1);
+  --iconCOLOR2: brightness(1) invert(0);
+  --font:Arial, Helvetica, sans-serif;
+  --font-size: 50px;
+}
+.change-theme-button{
+  width: 25px;
+  height: 25px;
+  filter: var(--iconCOLOR2);
+}
+.Nav{
+  position: absolute;
+  display: none;
+  margin-top: 83px;
+  margin-left: 1247px;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#showSideNav {
+  animation: slideInFromLeft 0.5s ease-in-out forwards;
+}
+.button__Nav{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 1250px;
+  cursor: pointer;
+  color: var(--backBUTTON);
+  background-color: var(--textCOLOR);
+}
+.more__button{
+  width: 25px;
+  height: 25px;
+  transform:rotateX('90');
+  filter: var(--iconCOLOR2);
+}
+.nav__icon{
+  width: 25px;
+  height: 25px;
+  filter: var(--iconCOLOR2);
+}
+.button__nav{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: var(--backBUTTON);
+  background-color: var(--textCOLOR);
+}
+.arrow1{
+  position: absolute;
+  height:20px;
+  margin-top: 0px;
+  margin-left: 8px;
+  filter: var(--iconCOLOR2);
+}
+.arrow2{
+  position: absolute;
+  height:20px;
+  margin-top: 0px;
+  margin-left: 8px;
+  filter: var(--iconCOLOR);
+}
+
+body {
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background-color: var(--backCOLOR2);
+  font-family:var(--font);
+  font-size: var(--fontsize);
+}
+.page1{
+  position:relative;
+  height: 632px;
+  width: auto;
+  padding-top: 0%;
+}
+.Pic {
+  height: auto;
+  width: 500px;
+  margin-top: 0px;
+  margin-left: 750px;
+  position: absolute;
+}
+.Caps{
+position: absolute;
+font-size: var(--font-size);
+font-weight: 1000;
+}
+.aboutMe{
+  position:absolute;
+  font-size: 15px;
+  height: auto;
+  width:580px;
+  margin-top: 100px;
+  padding-left: 100px;
+  color:var(--textCOLOR);
+}
+
+.small{
+position: absolute;
+margin-top: 180px;
+}
+.button__email{
+  display: center;
+  position: absolute;
+  background-color: var(--textCOLOR);
+  color: var(--backCOLOR);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 200;
+  margin-top: 400px;
+  margin-left: 100px;
+  font-size:medium;
+  text-decoration: none;
+}
+.button__proj{
+  display: center;
+  position: absolute;
+  color: var(--textCOLOR);
+  padding-left: 2rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 200;
+  margin-top: 400px;
+  margin-left: 250px;
+  font-size:medium;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.check{
+  position: absolute;
+  font-size:medium;
+}
+
+.arrow{
+  position: absolute;
+  height:20px;
+  margin-top: 0px;
+  margin-left: 8px;
+}
+
+.SocialIcon {
+  height: 20px;
+  width: auto;
+  padding: 3px;
+  margin-top: 8px;
+  filter: var(--iconCOLOR);
+}
+
+.social{
+  position: absolute;
+  margin-top: 480px;
+  margin-left: 100px;
+  color: var(--textCOLOR);
+}
+
+.tableSocial{
+margin-left: 200px;
+}
+
+.line {
+margin-left: 110px;
+margin-top: 25.5px;
+position: absolute;
+width: 28%;
+height: 05px;
+border-top: 0.5px solid var(--textCOLOR);
+}
+.page2nd{
+position:relative;
+height: 632px;
+width: auto;
+padding-top: 2px;
+background-color: var(--backCOLOR);
+}
+.secondTitle{
+position:relative;
+color: var(--textCOLOR);
+margin-left: 30%;
+font-size: 40px;
+font-weight: 600;
+}
+table{
+  text-align: left;
+}
+.page2nd .education{
+position: absolute;
+margin-left: 100px;
+color: var(--textCOLOR);
+padding: 2rem;
+padding-top: 20px;
+padding-left: 1rem;
+width: 40%;
+font-size: 20px;
+}
+.page2nd .education .school{
+color: var(--highlight);
+}
+.page2nd .education .sy{
+color: #7c7777;
+}
+.page2nd .education .tag{
+font-size: 30px;
+font-weight: 400;
+}
+.page2nd .education .line{
+margin-left: 0px;
+margin-top: 20px;
+position: absolute;
+width: 60%;
+height: 5px;
+border-top: 1.5px solid var(--textCOLOR);
+}
+.school{
+text-transform: uppercase;
+padding-top: 20px;
+font-size: 28px;
+}
+.page2nd .Skills{
+position:absolute;
+margin-left: 670px;
+margin-top: 0%;
+border-radius: 0%;
+color: var(--textCOLOR);
+background-color: var(--backCOLOR2);
+padding: 2rem;
+padding-top: 20px;
+padding-left: 2rem;
+padding-bottom: 2rem;
+width: 35%;
+height: 395px;
+font-size: 20px;
+}
+.page2nd .Skills .tag{
+padding-left: 25%;
+font-size: 30px;
+font-weight: 400;
+}
+.page2nd .skillBar{
+padding-left: 45px;
+margin-top: 20px;
+font-size: 20px;
+width: 100%;
+height: 350px;
+position: absolute;
+}
+.percentage-bar {
+width: 400px; /* Adjust width as needed */
+margin-bottom: 100px;
+height: 40px;
+}
+
+.progress-wrapper {
+background-color: #ddd; /* Color for the background of the progress bar */
+height: 13px; /* Set height of the progress bar */
+border-radius: 5px;
+overflow: hidden; /* Hide overflowing progress */
+margin-bottom: 10px;
+}
+
+.progress {
+background-color: var(--highlight); /* Color for the progress */
+height: 100%; /* Set height of the progress to fill the wrapper */
+border-radius: 5px;
+line-height: 20px; /* Center the text vertically */
+}
+
+.skill__icon{
+height: 35px;
+margin-bottom: 25px;
+width: auto;
+filter: var(--iconCOLOR);
+}
+.icon__SKILL{
+position: absolute;
+margin-top: 45px;
+margin-left: 0px;
+}
+.page3{
+position:relative;
+height: 635px;
+width: auto;
+padding-top: 2px;
+background-color: var(--backCOLOR);
+margin-top: 48px;
+}
+
+.page3container{
+  width: 100%;
+  margin-top: 3rem;
+}
+.page3container .tag{
+  color: var(--highlight);
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.PersonalINF {
+position: absolute;
+margin-left: 100px;
+color: var(--textCOLOR);
+border-color: var(--backCOLOR);
+padding: 1rem;
+padding-left: 1rem;
+padding-bottom: 19px;
+width: 40%;
+height: 400px;
+font-size: 25px;
+}
+.PersonalINF td{
+position: relative;
+padding-bottom: 10px;
+padding-left: 20px;
+}
+.otherSkill{
+  position: absolute;
+  margin-left: 650px;
+  color: var(--textCOLOR);
+  padding: 2rem;
+  padding-left: 2rem;
+  padding-top: 60px;
+  padding-bottom: 0.5rem;
+  width: 25%;
+  font-size: 25px;
+}
+.otherSkill table, 
+.hobbies table  {
+  width: 100%;
+}
+
+.Skills td,
+.otherSkill td,
+.hobbies td {
+  position: relative;
+  padding-bottom: 10px;
+  padding-left: 20px; /* Adjust the left padding for better spacing */
+}
+.otherSkill td::before{
+  content: '\2022'; /* Unicode character for a bullet point */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px; /* Adjust the font size as needed */
+  color: var(--textCOLOR);
+}
+.relationship{
+position: absolute;
+margin-left: 650px;
+margin-top: 380px;
+padding-right: 10px;
+color: var(--textCOLOR);
+padding: 1rem;
+padding-top: 50px;
+padding-bottom: 1rem;
+border-radius: 20px;
+width: 37%;
+font-size: 25px;
+}
+.relationship table {
+margin-top: 10px;
+width: 600px;
+border-collapse: collapse; /* This ensures that table cells share borders */
+}
+
+.relationship td {
+  padding: 0 2px; /* Add space inside every td */
+  text-align: left;
+}
+.relationship th {
+  padding: 0 50px; /* Add space inside every td */
+}
+.hobbies{
+position: absolute;
+margin-left: 1000px;
+color: var(--textCOLOR);
+padding-left: 2rem;
+padding-top: 54px;
+border-radius: 20px;
+width: 14%;
+font-size: 25px;
+}
+.hobbies td::before {
+content: '\2022'; /* Unicode character for a bullet point */
+position: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+font-size: 25px; /* Adjust the font size as needed */
+color: var(--textCOLOR);
+}
+.project{
+  position: relative;
+  background-color: var(--backCOLOR2a);
+  width: 100%;
+  height: 540px;
+  padding-top: 50px;
+}
+.container .tag{
+position:relative;
+color: var(--textCOLOR);
+margin-top: 50px;
+padding-left: 33%;
+font-size: 40px;
+font-weight: 600;
+}
+.scrollable__container{ 
+  width: 100%;
+  padding-top: 30px;
+  height: 530px;
+  overflow-x: auto; 
+  overflow-y: hidden;
+}
+.scroll{
+  position: relative; 
+  display: flex; 
+  gap: 20px; 
+  overflow-x: scroll;
+  height: 500px;
+  width: 150%;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+.project__card {
+position: relative;
+text-align: center;
+background-color: var(--cardBACK);
+padding-top: 2rem;
+padding-bottom: 1rem;
+margin-top: 30px;
+overflow-y: hidden;
+transition: .3s;
+width: 17%;
+height: 330px;
+}
+
+.project__tag {
+  background-color: var(--backBUTTON);
+  padding: .5rem 1rem;
+  color: var(--backBUTTONhov);
+  text-transform: uppercase;
+  font-size: .813rem;
+  font-weight: 1000;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  transition: .3s;
+}
+
+.project__img {
+  height: 214px;
+  margin-bottom: 1rem;
+}
+
+.project__data {
+  text-transform: uppercase;
+  color: var(--textCOLOR);
+  margin-bottom: .75rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.button {
+  display: center;
+  background-color: var(--backBUTTONhov);
+  color: var(--textCOLOR);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 1000;
+  font-size: larger;
+  transition: .3s;
+  text-decoration: none;
+}
+.project__button {
+  font-size: 1rem;
+  transform: translateY(1rem);
+  opacity: 0;
+  text-decoration: none;
+}
+
+.project__card:hover {
+  box-shadow: 0 12px 32px var(--backBUTTONhov);
+}
+
+.project__card:hover .project__tag {
+  background-color:var(--backBUTTONhov);
+  color: var(--textCOLOR);
+}
+
+.project__card:hover .project__button {
+  transform: translateY(0);
+  opacity: 1;
+  text-decoration: none;
+}
