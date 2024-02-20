@@ -206,12 +206,12 @@ border-top: 0.5px solid var(--textCOLOR);
 .page2nd{
 position:relative;
 height: 632px;
-width: auto;
+width: 100%;
 padding-top: 2px;
 background-color: var(--backCOLOR);
 }
 .secondTitle{
-position:relative;
+position:absolute;
 color: var(--textCOLOR);
 margin-left: 30%;
 font-size: 40px;
@@ -223,6 +223,7 @@ table{
 .page2nd .education{
 position: absolute;
 margin-left: 100px;
+margin-top: 150px;
 color: var(--textCOLOR);
 padding: 2rem;
 padding-top: 20px;
@@ -255,8 +256,8 @@ font-size: 28px;
 }
 .page2nd .Skills{
 position:absolute;
-margin-left: 670px;
-margin-top: 0%;
+margin-left: 750px;
+margin-top: 150px;
 border-radius: 0%;
 color: var(--textCOLOR);
 background-color: var(--backCOLOR2);
@@ -264,12 +265,12 @@ padding: 2rem;
 padding-top: 20px;
 padding-left: 2rem;
 padding-bottom: 2rem;
-width: 35%;
-height: 395px;
+width: 455px;
+height: 400px;
 font-size: 20px;
 }
 .page2nd .Skills .tag{
-padding-left: 25%;
+padding-left: 90px;
 font-size: 30px;
 font-weight: 400;
 }
@@ -447,7 +448,7 @@ font-weight: 600;
 .scrollable__container{ 
   width: 100%;
   padding-top: 30px;
-  height: 530px;
+  height: 513px;
   overflow-x: auto; 
   overflow-y: hidden;
 }
