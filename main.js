@@ -29,7 +29,7 @@ themeButton.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("button__proj").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("file:///C:/Users/Tripulca/Desktop/WEB%20SYSTEMS%20AND%20TECHNOLOGIES/index.html#Proj", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#Proj", "_blank");
     });
 
     document.getElementById("education__link").addEventListener("click", function(event) {
