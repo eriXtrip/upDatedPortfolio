@@ -452,6 +452,17 @@ font-weight: 600;
   overflow-x: auto; 
   overflow-y: hidden;
 }
+.scrollable__container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable__container::-webkit-scrollbar-track {
+  background-color: var(--highlight);
+}
+
+.scrollable__container::-webkit-scrollbar-thumb {
+  background: var(--cardBACK);
+}
 .scroll{
   position: relative; 
   display: flex; 
