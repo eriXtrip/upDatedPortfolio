@@ -27,10 +27,10 @@ themeButton.addEventListener('click', () => {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("button__proj").addEventListener("click", function(event) {
-        event.preventDefault();
-        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#Proj", "_blank");
-    });
+    // document.getElementById("button__proj").addEventListener("click", function(event) {
+    //     event.preventDefault();
+    //     window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#Proj", "_blank");
+    // });
 
     document.getElementById("education__link").addEventListener("click", function(event) {
         event.preventDefault();
