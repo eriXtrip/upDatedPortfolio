@@ -29,37 +29,37 @@ themeButton.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("button__proj").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("upDatedPortfolio/index.html#Proj", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#Proj", "_blank");
     });
     
     document.getElementById("education__link").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("upDatedPortfolio/index.html#Skill__Ed", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#Skill__Ed", "_blank");
     });
     
     document.getElementById("skills__link").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("upDatedPortfolio/index.html#Skill__Ed", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#Skill__Ed", "_blank");
     });
     
     document.getElementById("PersonalINF__link").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("upDatedPortfolio/index.html#PersonalInformation", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#PersonalInformation", "_blank");
     });
     
     document.getElementById("moreskill__link").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("upDatedPortfolio/index.html#otherSkill", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#otherSkill", "_blank");
     });
     
     document.getElementById("hobbies__link").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("upDatedPortfolio/index.html#hobbies", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#hobbies", "_blank");
     });
     
     document.getElementById("relationship__link").addEventListener("click", function(event) {
         event.preventDefault();
-        window.open("upDatedPortfolio/index.html#relationship", "_blank");
+        window.open("https://erixtrip.github.io/upDatedPortfolio/index.html#relationship", "_blank");
     });
 
 
